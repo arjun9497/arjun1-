@@ -14,7 +14,7 @@ def ceaser(Plaintext,key):
     return ct
     
     
-pt = input("ente the string too encrypt:")
+pt = input("ente the string  also too encrypt:")
 k = int(input("enter the key value:"))
 enc = ceaser(pt,k)
 print('the encryptedd value is:',enc)
